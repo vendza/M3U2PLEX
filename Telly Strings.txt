@@ -1,0 +1,19 @@
+Usage of telly-windows-amd64.exe:
+  -deviceauth string
+        Only change this if you know what you're doing (default "telly123")
+  -deviceid string
+        8 characters, must be numbers. Only change this if you know what you're doing (default "12345678")
+  -file string
+        Filepath of the playlist m3u file (DEPRECATED, use -playlist instead)
+  -filterregex
+        Use regex to attempt to strip out bogus channels (SxxExx, 24/7 channels, etc
+  -friendlyname string
+        Useful if you are running two instances of telly and want to differentiate between them. (default "telly")
+  -listen string
+        IP:Port to listen on (default "localhost:6077")
+  -logrequests
+        Log any requests to telly
+  -playlist string
+        Location of playlist m3u file (default "iptv.m3u")
+  -streams int
+        Amount of concurrent streams allowed (default 1)
